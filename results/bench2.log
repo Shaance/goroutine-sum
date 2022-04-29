@@ -1,0 +1,9 @@
+goos: darwin
+goarch: arm64
+pkg: shaance/goroutine-sum
+BenchmarkGoroutineSumInput_5000-10      	   65468	     17762 ns/op
+BenchmarkClassicSumInput_5000-10        	  764524	      1570 ns/op
+BenchmarkGoroutineSumInput_150000-10    	    1947	    534233 ns/op
+BenchmarkClassicSumInput_150000-10      	   25594	     47036 ns/op
+PASS
+ok  	shaance/goroutine-sum	5.446s

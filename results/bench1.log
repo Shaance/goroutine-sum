@@ -1,0 +1,10 @@
+goos: darwin
+goarch: amd64
+pkg: shaance/goroutine-sum
+cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+BenchmarkGoroutineSumInput_5000-12      	   42518	     26443 ns/op
+BenchmarkClassicSumInput_5000-12        	  359440	      3376 ns/op
+BenchmarkGoroutineSumInput_150000-12    	    2767	    448706 ns/op
+BenchmarkClassicSumInput_150000-12      	   15282	     80002 ns/op
+PASS
+ok  	shaance/goroutine-sum	7.798s
